@@ -1,3 +1,7 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
 body {
 
     background-color: #E5E5E5;
@@ -18,10 +22,126 @@ body {
     height: 100vh;
 }
 
+.box-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background: #fff;
+}
+
 .border-box {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 3px solid black;
+    border: 1px solid black;
+    width: 350px;
+    height: 140px;
+    border-radius: 5px;
+    border-color: #DBDBDB;
+}
+
+.container p {
+    font-family: Spoqa Han Sans Neo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 16px;
+
+}
+
+.container .btn-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 16px;
+    width: 318px;
+    height: 40px;
+    border-radius: 4px;
+    background: #711BFF;
+    padding: 0;
+    border: none;
+}
+
+.container .btn-login p {
+    font-family: Spoqa Han Sans Neo;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
     text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 7px;
+    margin-top: 13px;
+}
+
+.container .btn-login img {
+
+    height: 18px;
+    /* margin-left: 116px; */
+    margin-top: 10px;
+}
+
+.bottom_object {
+    display:flex;
+    flex-direction: row;
+    height: 20px;
+    width: 318px;
+    margin-bottom: 18px;
+}
+
+.bottom_left {
+    margin: 16px 0px 0px 16px;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.bottom_left img {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-word {
+    font-family: Spoqa Han Sans Neo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.bottom_left .btn-id {
+    margin-left: 6px;
+}
+
+.bottom_left .btn-id::after {
+ 
+    display: inline-block;
+    content: '';
+    width: 3px;
+    height: 10px;
+    border-right: 1px solid black;
+}
+
+.bottom_right {
+
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    
+}
+
+.bottom_right img {
+    width: 16px;
+    height: 16px;
 }
