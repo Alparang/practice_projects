@@ -1,0 +1,2 @@
+1. flex align-items:center, justify-content:center 를 했는데도
+상하로 중앙정렬이 되지 않는 문제.
