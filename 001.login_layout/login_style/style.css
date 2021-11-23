@@ -11,12 +11,11 @@ body {
 	text-indent:-9999px;
 } */
 
-.box-main {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .border-box {

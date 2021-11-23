@@ -1,2 +1,2 @@
 1. flex align-items:center, justify-content:center 를 했는데도
-상하로 중앙정렬이 되지 않는 문제.
+상하로 중앙정렬이 되지 않는 문제. -> height를 100%가 아니라 100vh로 줘서 해결함.
