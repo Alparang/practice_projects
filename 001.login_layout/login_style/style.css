@@ -74,9 +74,9 @@ body {
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
-    text-align: center;
-    list-style: none;
+    text-align: center;;
     text-decoration: none;
+    list-style: none;
     color: #fff;
     margin-left: 7px;
     margin-top: 13px;
@@ -93,8 +93,8 @@ body {
     display:flex;
     flex-direction: row;
     height: 20px;
-    width: 318px;
-    margin-bottom: 18px;
+    width: 340px;
+    margin-bottom: 16px;
 }
 
 .bottom_left {
@@ -105,6 +105,7 @@ body {
 }
 
 .bottom_left img {
+
     width: 16px;
     height: 16px;
 }
@@ -118,30 +119,46 @@ body {
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
+    color: black;
 }
 
 .bottom_left .btn-id {
     margin-left: 6px;
 }
 
+.bottom_left .btn-password {
+    margin-left: 3px;
+}
+
 .bottom_left .btn-id::after {
  
     display: inline-block;
     content: '';
-    width: 3px;
-    height: 10px;
-    border-right: 1px solid black;
+    width: 2px;
+    height: 2px;
+    background: black;
+    border-radius: 20px;
+    /* 상하 정렬을 조정해줍니다. 오직 inline, inline-block 요소에서만 작동합니다. */
+    vertical-align: 3px;
+    margin-left: 4px;
 }
 
 .bottom_right {
 
+    margin-top: 16px;
+    margin-left: 110px;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
     
 }
 
 .bottom_right img {
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
+}
+
+.btn-signin {
+    margin-left: 6px;
 }
